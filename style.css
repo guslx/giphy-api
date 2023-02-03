@@ -1,0 +1,58 @@
+html {
+  font-size: 24px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  padding: .7em;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+form {
+  margin: 0 4em;
+}
+
+.greetings {
+  grid-area: date
+}
+
+.out {
+  margin: 0 3em;
+}
+
+.gif-info {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+     'gif above-text'
+     'date  below-text';
+  border: 1px solid #00aaff;
+  border-radius: 8px;
+  padding: 1em 3em;
+  margin: 1em;
+}
+
+.gif-info img {
+  
+  max-width: 100%;
+  grid-area: gif;
+}
+
+h2 {
+  grid-area: above-text;
+  font-size: 42px;
+}
+
+.anchor {
+  grid-area: below-text;
+  text-decoration: none;
+  color: aqua;
+}
+
+
